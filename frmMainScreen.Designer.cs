@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMainScreen));
             this.pnlHeader = new System.Windows.Forms.Panel();
             this.pnlBtnsHeader = new System.Windows.Forms.Panel();
+            this.btnAddNewStudent = new System.Windows.Forms.Button();
+            this.btnRefresh = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
             this.pnlTotalStudent = new System.Windows.Forms.Panel();
             this.lblStudentNumbers = new System.Windows.Forms.Label();
@@ -39,7 +41,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlSearchFilterContainer = new System.Windows.Forms.Panel();
             this.pnlStudentListContainer = new System.Windows.Forms.Panel();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvwStudentsList = new System.Windows.Forms.ListView();
             this.chStudentID = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chStudentName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chGender = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -127,11 +129,8 @@
             this.lblStudentName = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pnlButtonContainer = new System.Windows.Forms.Panel();
-            this.pnlPictureContainer = new System.Windows.Forms.Panel();
-            this.panel33 = new System.Windows.Forms.Panel();
-            this.btnAddNewStudent = new System.Windows.Forms.Button();
-            this.btnRefresh = new System.Windows.Forms.Button();
             this.btnViewFullDetials = new System.Windows.Forms.Button();
+            this.pnlPictureContainer = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlHeader.SuspendLayout();
             this.pnlBtnsHeader.SuspendLayout();
@@ -207,6 +206,23 @@
             resources.ApplyResources(this.pnlBtnsHeader, "pnlBtnsHeader");
             this.pnlBtnsHeader.Name = "pnlBtnsHeader";
             // 
+            // btnAddNewStudent
+            // 
+            resources.ApplyResources(this.btnAddNewStudent, "btnAddNewStudent");
+            this.btnAddNewStudent.BackColor = System.Drawing.Color.Gainsboro;
+            this.btnAddNewStudent.Image = global::SimpleStudentManagementSystemScreen.Properties.Resources.PlusIcon_20x20;
+            this.btnAddNewStudent.Name = "btnAddNewStudent";
+            this.btnAddNewStudent.UseVisualStyleBackColor = false;
+            this.btnAddNewStudent.Click += new System.EventHandler(this.btnAddNewStudent_Click);
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.BackColor = System.Drawing.Color.Gainsboro;
+            resources.ApplyResources(this.btnRefresh, "btnRefresh");
+            this.btnRefresh.Image = global::SimpleStudentManagementSystemScreen.Properties.Resources.RefreshIcon;
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.UseVisualStyleBackColor = false;
+            // 
             // panel3
             // 
             this.panel3.Controls.Add(this.pnlTotalStudent);
@@ -258,14 +274,14 @@
             // 
             // pnlStudentListContainer
             // 
-            this.pnlStudentListContainer.Controls.Add(this.listView1);
+            this.pnlStudentListContainer.Controls.Add(this.lvwStudentsList);
             resources.ApplyResources(this.pnlStudentListContainer, "pnlStudentListContainer");
             this.pnlStudentListContainer.Name = "pnlStudentListContainer";
             // 
-            // listView1
+            // lvwStudentsList
             // 
-            this.listView1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.lvwStudentsList.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lvwStudentsList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chStudentID,
             this.chStudentName,
             this.chGender,
@@ -274,13 +290,13 @@
             this.chAcademicLevel,
             this.chPhoneNumber,
             this.chStatus});
-            this.listView1.FullRowSelect = true;
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            resources.ApplyResources(this.listView1, "listView1");
-            this.listView1.Name = "listView1";
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
+            this.lvwStudentsList.FullRowSelect = true;
+            this.lvwStudentsList.GridLines = true;
+            this.lvwStudentsList.HideSelection = false;
+            resources.ApplyResources(this.lvwStudentsList, "lvwStudentsList");
+            this.lvwStudentsList.Name = "lvwStudentsList";
+            this.lvwStudentsList.UseCompatibleStateImageBehavior = false;
+            this.lvwStudentsList.View = System.Windows.Forms.View.Details;
             // 
             // chStudentID
             // 
@@ -819,7 +835,6 @@
             // 
             // pnlBrithdateContainer
             // 
-            this.pnlBrithdateContainer.Controls.Add(this.panel33);
             this.pnlBrithdateContainer.Controls.Add(this.lblBridthdate);
             resources.ApplyResources(this.pnlBrithdateContainer, "pnlBrithdateContainer");
             this.pnlBrithdateContainer.Name = "pnlBrithdateContainer";
@@ -854,34 +869,6 @@
             resources.ApplyResources(this.pnlButtonContainer, "pnlButtonContainer");
             this.pnlButtonContainer.Name = "pnlButtonContainer";
             // 
-            // pnlPictureContainer
-            // 
-            this.pnlPictureContainer.Controls.Add(this.pictureBox1);
-            resources.ApplyResources(this.pnlPictureContainer, "pnlPictureContainer");
-            this.pnlPictureContainer.Name = "pnlPictureContainer";
-            // 
-            // panel33
-            // 
-            resources.ApplyResources(this.panel33, "panel33");
-            this.panel33.Name = "panel33";
-            // 
-            // btnAddNewStudent
-            // 
-            resources.ApplyResources(this.btnAddNewStudent, "btnAddNewStudent");
-            this.btnAddNewStudent.BackColor = System.Drawing.Color.Gainsboro;
-            this.btnAddNewStudent.Image = global::SimpleStudentManagementSystemScreen.Properties.Resources.PlusIcon_20x20;
-            this.btnAddNewStudent.Name = "btnAddNewStudent";
-            this.btnAddNewStudent.UseVisualStyleBackColor = false;
-            this.btnAddNewStudent.Click += new System.EventHandler(this.btnAddNewStudent_Click);
-            // 
-            // btnRefresh
-            // 
-            this.btnRefresh.BackColor = System.Drawing.Color.Gainsboro;
-            resources.ApplyResources(this.btnRefresh, "btnRefresh");
-            this.btnRefresh.Image = global::SimpleStudentManagementSystemScreen.Properties.Resources.RefreshIcon;
-            this.btnRefresh.Name = "btnRefresh";
-            this.btnRefresh.UseVisualStyleBackColor = false;
-            // 
             // btnViewFullDetials
             // 
             this.btnViewFullDetials.BackColor = System.Drawing.Color.Gainsboro;
@@ -890,6 +877,12 @@
             this.btnViewFullDetials.Image = global::SimpleStudentManagementSystemScreen.Properties.Resources.EyeIcon_1_20x20;
             this.btnViewFullDetials.Name = "btnViewFullDetials";
             this.btnViewFullDetials.UseVisualStyleBackColor = false;
+            // 
+            // pnlPictureContainer
+            // 
+            this.pnlPictureContainer.Controls.Add(this.pictureBox1);
+            resources.ApplyResources(this.pnlPictureContainer, "pnlPictureContainer");
+            this.pnlPictureContainer.Name = "pnlPictureContainer";
             // 
             // pictureBox1
             // 
@@ -1016,7 +1009,7 @@
         private System.Windows.Forms.Panel pnlSearchFilterContainer;
         private System.Windows.Forms.GroupBox gbSearchFilter;
         private System.Windows.Forms.Panel pnlStudentListContainer;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView lvwStudentsList;
         private System.Windows.Forms.ColumnHeader chStudentID;
         private System.Windows.Forms.ColumnHeader chStudentName;
         private System.Windows.Forms.ColumnHeader chDepartment;
@@ -1106,7 +1099,6 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ColumnHeader chGender;
         private System.Windows.Forms.ColumnHeader chBrithdate;
-        private System.Windows.Forms.Panel panel33;
     }
 }
 

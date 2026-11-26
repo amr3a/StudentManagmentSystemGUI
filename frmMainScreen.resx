@@ -453,25 +453,25 @@
   <data name="chStatus.Width" type="System.Int32, mscorlib">
     <value>140</value>
   </data>
-  <data name="listView1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="lvwStudentsList.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 15</value>
   </data>
-  <data name="listView1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lvwStudentsList.Size" type="System.Drawing.Size, System.Drawing">
     <value>1742, 596</value>
   </data>
-  <data name="listView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="lvwStudentsList.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;listView1.Name" xml:space="preserve">
-    <value>listView1</value>
+  <data name="&gt;&gt;lvwStudentsList.Name" xml:space="preserve">
+    <value>lvwStudentsList</value>
   </data>
-  <data name="&gt;&gt;listView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;lvwStudentsList.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;listView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lvwStudentsList.Parent" xml:space="preserve">
     <value>pnlStudentListContainer</value>
   </data>
-  <data name="&gt;&gt;listView1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lvwStudentsList.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="pnlStudentListContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -2478,27 +2478,6 @@
   <data name="&gt;&gt;pnlEmailContainer.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panel33.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 19</value>
-  </data>
-  <data name="panel33.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="panel33.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;panel33.Name" xml:space="preserve">
-    <value>panel33</value>
-  </data>
-  <data name="&gt;&gt;panel33.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel33.Parent" xml:space="preserve">
-    <value>pnlBrithdateContainer</value>
-  </data>
-  <data name="&gt;&gt;panel33.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="lblBridthdate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -2512,13 +2491,13 @@
     <value>1, 0</value>
   </data>
   <data name="lblBridthdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 20</value>
+    <value>73, 20</value>
   </data>
   <data name="lblBridthdate.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
   </data>
   <data name="lblBridthdate.Text" xml:space="preserve">
-    <value>Brith Of Date:</value>
+    <value>Brithdate:</value>
   </data>
   <data name="lblBridthdate.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
@@ -2533,7 +2512,7 @@
     <value>pnlBrithdateContainer</value>
   </data>
   <data name="&gt;&gt;lblBridthdate.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="pnlBrithdateContainer.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -2973,9 +2952,6 @@
         AA/+AAAP/gAAD/4AAA/6AAAP+AAAD/AAAI/4AAAP8AAAD+AAAAfgAAAH8AAAD/wAAD//AAD//8AD///w
         D///+B////5//////////////////3////8=
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

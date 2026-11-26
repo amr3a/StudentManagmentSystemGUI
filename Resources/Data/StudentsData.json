@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "_ID": "ST-0001",
+    "_Name": "Amr Abdulhabib Ahmed Mahyoub",
+    "_Brithdate": "2004-07-02T00:00:00",
+    "_Gender": "Male",
+    "_Email": "amralameri65@gmail.com",
+    "_PhoneNumber": "+967734296102",
+    "_Address": "Taiz - Alhoban",
+    "_Department": "Information Technology",
+    "_AcademicLevel": "Fourth Level",
+    "_EnrollmentDate": "2022-09-03T00:00:00",
+    "_Status": "Active",
+    "_PhotoLocation": "E:\\Users\\amr7a\\Desktop\\My Files\\photo.jpg"
+  }
+]

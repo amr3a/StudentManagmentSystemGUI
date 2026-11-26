@@ -9,3 +9,5 @@ E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementS
 E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementSystemScreen\obj\Debug\SimpleStudentManagementSystemScreen.exe
 E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementSystemScreen\obj\Debug\SimpleStudentManagementSystemScreen.pdb
 E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementSystemScreen\obj\Debug\SimpleStudentManagementSystemScreen.frmAddNewStudent.resources
+E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementSystemScreen\bin\Debug\Newtonsoft.Json.dll
+E:\Users\amr7a\Desktop\ProgrammingAdviceCourse\Course14\SimpleStudentManagementSystemScreen\obj\Debug\SimpleSt.0546E91C.Up2Date

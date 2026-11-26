@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
 namespace SimpleStudentManagementSystemScreen
 {
     public partial class frmMainScreen : Form
@@ -19,22 +18,7 @@ namespace SimpleStudentManagementSystemScreen
         {
             InitializeComponent();
             FrmAddNewStudent.StartPosition = FormStartPosition.CenterParent;
-        }
-        private struct stStudent
-        {
-            public string ID;
-            public string Name;
-            public string Brithdate;
-            public string Gender;
-            public string Email;
-            public string PhoneNumber;
-            public string Address;
-            public string Department;
-            public string AcademicLevel;
-            public string EnrollmentData;
-            public string Status;
-
-
+         
         }
 
         private void frmMainScreen_Load(object sender, EventArgs e)
@@ -45,6 +29,8 @@ namespace SimpleStudentManagementSystemScreen
             Image PlusIcon_20x20 = Properties.Resources.PlusIcon_20x20;
 
             btnAddNewStudent.Image = new Bitmap(PlusIcon_20x20, 15, 15);
+
+            
         }
 
         private void btnAddNewStudent_Click(object sender, EventArgs e)
